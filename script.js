@@ -25,12 +25,3 @@ class Dog extends Animal {
 }
 
 // Example usage:
-const myCat = new Cat("Domestic Cat");
-console.log(`Species: ${myCat.species}`);
-myCat.makeSound(); // This will call the makeSound method from the Animal class
-myCat.purr();      // This will call the purr method specific to the Cat class
-
-const myDog = new Dog("Golden Retriever");
-console.log(`Species: ${myDog.species}`);
-myDog.makeSound(); // This will call the makeSound method from the Animal class
-myDog.bark();      // This will call the bark method specific to the Dog class
