@@ -18,5 +18,5 @@ class Dog extends Animal {
     console.log("woof");
   }
 }
-
+  }
 // Example usage:
